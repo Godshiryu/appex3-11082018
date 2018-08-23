@@ -24,7 +24,7 @@ public class Cliente implements Serializable {
 	private String name;
 	@NotNull
 	private String email;
-	@Column(name = "birth-date")
+	@Column(name = "birth_date")
 	private String birthDate;
 	
 	public String getName() {
@@ -57,5 +57,4 @@ public class Cliente implements Serializable {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
 }
